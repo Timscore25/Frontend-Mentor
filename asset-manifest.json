@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Frontend-Mentor/static/css/main.e4af0145.css",
-    "main.js": "/Frontend-Mentor/static/js/main.59e7232a.js",
-    "static/js/787.cec200c7.chunk.js": "/Frontend-Mentor/static/js/787.cec200c7.chunk.js",
-    "static/media/image-product-desktop.jpg": "/Frontend-Mentor/static/media/image-product-desktop.c96d43af17111fe78e96.jpg",
-    "index.html": "/Frontend-Mentor/index.html",
-    "static/media/icon-cart.svg": "/Frontend-Mentor/static/media/icon-cart.9606ad84b7565a3f523f9429396f8066.svg",
-    "main.e4af0145.css.map": "/Frontend-Mentor/static/css/main.e4af0145.css.map",
-    "main.59e7232a.js.map": "/Frontend-Mentor/static/js/main.59e7232a.js.map",
-    "787.cec200c7.chunk.js.map": "/Frontend-Mentor/static/js/787.cec200c7.chunk.js.map"
+    "main.css": "./static/css/main.e4af0145.css",
+    "main.js": "./static/js/main.95505da7.js",
+    "static/js/787.cec200c7.chunk.js": "./static/js/787.cec200c7.chunk.js",
+    "static/media/image-product-desktop.jpg": "./static/media/image-product-desktop.c96d43af17111fe78e96.jpg",
+    "index.html": "./index.html",
+    "static/media/icon-cart.svg": "./static/media/icon-cart.9606ad84b7565a3f523f9429396f8066.svg",
+    "main.e4af0145.css.map": "./static/css/main.e4af0145.css.map",
+    "main.95505da7.js.map": "./static/js/main.95505da7.js.map",
+    "787.cec200c7.chunk.js.map": "./static/js/787.cec200c7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e4af0145.css",
-    "static/js/main.59e7232a.js"
+    "static/js/main.95505da7.js"
   ]
 }
