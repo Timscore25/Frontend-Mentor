@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+.App {
+    height: 100vh;
+    background-color: #4B0082;
+}
+
+.Header {
+    display: flex;
+    justify-content: center;
+}
+
+.Header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+
+.mainPageContent {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* @media (min-width: 1024px) {
+    .mainPageContentContainerCard {
+        margin: calc(1.25rem);;
+        width: calc((33.3333% - 2.5rem) - 0.001rem);
+    }
+}
+
+@media (min-width: 768px) {
+    .mainPageContentContainerCard {
+        margin: calc(0.9375rem);
+        width: calc((50% - 1.875rem) - 0.001rem);
+    }
+}
+    
+@media (min-width: 500px) {
+    .mainPageContentContainerCard {
+        width: calc((50% - 1.25rem) - 0.001rem);
+    }
+} */
