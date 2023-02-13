@@ -7,10 +7,14 @@ function MainPage () {
     return (
         <div className={mainPage.App}>
             <div className={mainPage.mainPage}>
-                <header className={mainPage.Header}>
-                    <h1>Frontend Mentor Projects</h1>
-                    {/* <h2>Nikola M. Kostov</h2> */}
-                </header>
+                <div className={mainPage.navBarContainer}>
+                    <div className={mainPage.headerContainer}>
+                        <h1 className={mainPage.header}><a href="#">Frontend Mentor</a></h1>
+                    </div>
+                    <div className={mainPage.author}>
+                        <h2>Created by: Nikola M. Kostov</h2>
+                    </div>
+                </div>
                 <main className={mainPage.mainPageContent}>
                     <CardsComponent />
                 </main>

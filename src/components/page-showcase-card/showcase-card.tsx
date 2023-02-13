@@ -6,6 +6,7 @@ function CardsComponent () {
 
     const [goToProductPreviewCardComponent, setGoToProductPreviewCardComponent] = React.useState(false);
     const [goToQrCodeComponent, setGoToQrCodeComponent] = React.useState(false);
+    const [goToNftPreviewCardComponent, setGoToNftPreviewCardComponent] = React.useState(false);
 
     if (goToProductPreviewCardComponent) {
     return <Navigate to="/product-preview-card-component" />;
@@ -13,6 +14,10 @@ function CardsComponent () {
 
     if (goToQrCodeComponent) {
     return <Navigate to="/qr-code-component" />;
+    }
+
+    if (goToNftPreviewCardComponent) {
+    return <Navigate to="/nft-preview-card-component" />;
     }
 
     return (
@@ -52,6 +57,24 @@ function CardsComponent () {
                     </div>
                 </div>
                 <p className={CARD.date}>2/11/2023</p>
+            </div>
+            <div className={CARD.mainPageContentContainerCard}>
+                <img src="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/rinokvkluq95madbvtmk.jpg" alt="" />
+                <div className={CARD.textContainer}>
+                    <div className={CARD.Headline}>
+                        <a 
+                        onClick={() => {
+                        /* set 'goToProductPreviewCardComponent' to true */
+                        setGoToNftPreviewCardComponent(true);
+                        }}
+                        >NFT preview card component</a>
+                    </div>
+                    <div className={CARD.languages}>
+                        <p className={CARD.html}>HTML</p>
+                        <p className={CARD.css}>CSS</p>
+                    </div>
+                </div>
+                <p className={CARD.date}>2/13/2023</p>
             </div>
         </div>
     );
