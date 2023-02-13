@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "./static/css/main.67dfd25f.css",
-    "main.js": "./static/js/main.c097e34c.js",
+    "main.css": "./static/css/main.e1418718.css",
+    "main.js": "./static/js/main.d8e58c3a.js",
     "static/js/787.cec200c7.chunk.js": "./static/js/787.cec200c7.chunk.js",
     "static/media/image-product-desktop.jpg": "./static/media/image-product-desktop.c96d43af17111fe78e96.jpg",
+    "static/media/image-equilibrium.jpg": "./static/media/image-equilibrium.88bdbc91a544a2a4d04a.jpg",
     "index.html": "./index.html",
     "static/media/icon-cart.svg": "./static/media/icon-cart.9606ad84b7565a3f523f9429396f8066.svg",
-    "main.67dfd25f.css.map": "./static/css/main.67dfd25f.css.map",
-    "main.c097e34c.js.map": "./static/js/main.c097e34c.js.map",
+    "static/media/icon-clock.svg": "./static/media/icon-clock.991a65225dab4fadc84345ecb35faa1b.svg",
+    "static/media/icon-ethereum.svg": "./static/media/icon-ethereum.5221f33297e5dc863451e2da9a758c12.svg",
+    "main.e1418718.css.map": "./static/css/main.e1418718.css.map",
+    "main.d8e58c3a.js.map": "./static/js/main.d8e58c3a.js.map",
     "787.cec200c7.chunk.js.map": "./static/js/787.cec200c7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.67dfd25f.css",
-    "static/js/main.c097e34c.js"
+    "static/css/main.e1418718.css",
+    "static/js/main.d8e58c3a.js"
   ]
 }
