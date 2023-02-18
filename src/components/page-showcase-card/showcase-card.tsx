@@ -9,6 +9,7 @@ function CardsComponent () {
     const [goToQrCodeComponent, setGoToQrCodeComponent] = React.useState(false);
     const [goToNftPreviewCardComponent, setGoToNftPreviewCardComponent] = React.useState(false);
     const [goToOrderSummaryComponent, setGoToOrderSummaryComponent] = React.useState(false);
+    const [goToResultsSummaryComponent, setGoToResultsSummaryComponent] = React.useState(false);
 
     if (goToProductPreviewCardComponent) {
     return <Navigate to="/product-preview-card-component" />;
@@ -24,6 +25,10 @@ function CardsComponent () {
 
     if (goToOrderSummaryComponent) {
     return <Navigate to="/order-summary-component" />;
+    }
+
+    if (goToResultsSummaryComponent) {
+    return <Navigate to="/results-summary-component" />;
     }
 
     return (
@@ -94,6 +99,24 @@ function CardsComponent () {
                             setGoToOrderSummaryComponent(true);
                             }}
                             >Order summary component</a>
+                        </div>
+                        <div className={CARD.languages}>
+                            <p className={CARD.html}>HTML</p>
+                            <p className={CARD.css}>CSS</p>
+                        </div>
+                    </div>
+                    <p className={CARD.date}>2/15/2023</p>
+                </div>
+                <div className={CARD.mainPageContentContainerCard}>
+                    <img src="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/b03akozsxsouireonkkd.jpg" alt="" />
+                    <div className={CARD.textContainer}>
+                        <div className={CARD.Headline}>
+                            <a 
+                            onClick={() => {
+                            /* set 'goToProductPreviewCardComponent' to true */
+                            setGoToResultsSummaryComponent(true);
+                            }}
+                            >Results summary component</a>
                         </div>
                         <div className={CARD.languages}>
                             <p className={CARD.html}>HTML</p>
