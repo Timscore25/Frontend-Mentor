@@ -12,7 +12,7 @@ function MainPage () {
                         <h1 className={mainPage.header}><a href="#">Frontend Mentor</a></h1>
                     </div>
                     <div className={mainPage.author}>
-                        <h2>Created by: Nikola M. Kostov</h2>
+                        <h2>Created by: <a href="https://github.com/Timscore25" target="_blank">Nikola M. Kostov</a></h2>
                     </div>
                 </div>
                 <main className={mainPage.mainPageContent}>

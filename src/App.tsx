@@ -12,6 +12,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={ <MainPage/> } />
+        <Route path="." element={ <MainPage/> } />
         <Route path="/product-preview-card-component" element={ <ProductReviewPage/> } />
         <Route path="/qr-code-component" element={ <QrCodeComponent/> } />
         <Route path="/nft-preview-card-component" element={ <NFTPreviewCardComponent/> } />
