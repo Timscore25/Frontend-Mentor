@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.20173850.css",
-    "main.js": "./static/js/main.f0749ef8.js",
+    "main.css": "./static/css/main.b916611c.css",
+    "main.js": "./static/js/main.61f249fd.js",
     "static/js/787.cec200c7.chunk.js": "./static/js/787.cec200c7.chunk.js",
     "static/media/image-product-desktop.jpg": "./static/media/image-product-desktop.c96d43af17111fe78e96.jpg",
     "static/media/illustration-hero.svg": "./static/media/illustration-hero.7303258392501e7adc159201ab028e44.svg",
@@ -15,12 +15,12 @@
     "static/media/icon-clock.svg": "./static/media/icon-clock.991a65225dab4fadc84345ecb35faa1b.svg",
     "static/media/icon-reaction.svg": "./static/media/icon-reaction.0c1d6b98b4559ba72276d9ceda14692d.svg",
     "static/media/icon-ethereum.svg": "./static/media/icon-ethereum.5221f33297e5dc863451e2da9a758c12.svg",
-    "main.20173850.css.map": "./static/css/main.20173850.css.map",
-    "main.f0749ef8.js.map": "./static/js/main.f0749ef8.js.map",
+    "main.b916611c.css.map": "./static/css/main.b916611c.css.map",
+    "main.61f249fd.js.map": "./static/js/main.61f249fd.js.map",
     "787.cec200c7.chunk.js.map": "./static/js/787.cec200c7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20173850.css",
-    "static/js/main.f0749ef8.js"
+    "static/css/main.b916611c.css",
+    "static/js/main.61f249fd.js"
   ]
 }
