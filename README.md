@@ -13,10 +13,11 @@
 
 ## Project List
 
-- [Challenge 1](https://github.com/timscore25/frontend-mentor/tree/master/challenge-1)
-- [Challenge 2](https://github.com/tiscore25/frontend-mentor/tree/master/challenge-2)
-- [Challenge 3](https://github.com/timscore25/frontend-mentor/tree/master/challenge-3)
-- [and more...]
+- [NFT-preview-card-component](https://github.com/timscore25/frontend-mentor/nft-preview-card-component)
+- [Order-summary-component](https://github.com/tiscore25/frontend-mentor/order-summary-component)
+- [Product-preview-card-component](https://github.com/timscore25/frontend-mentor/product-preview-card-component)
+- [Qr-code-component](https://github.com/timscore25/frontend-mentor/qr-code-component)
+- [Results-summary-component](https://github.com/timscore25/frontend-mentor/results-summary-component)
 
 ## Contributing
 
