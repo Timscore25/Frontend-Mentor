@@ -6,6 +6,7 @@ import QrCodeComponent from './pages/Qr-code-component/Qr-code-component';
 import NFTPreviewCardComponent from './pages/NFT-preview-card-component/NFT-preview-card-component';
 import OrderSummaryComponent from './pages/Order-summary-component/Order-summary-component';
 import ResultsSummaryComponent from './pages/Results-summary-component/Results-summary-component';
+import StatsPreviewCardComponent from './pages/template-page copy/Stats-preview-card-component';
 
 function App() {
   return (
@@ -13,11 +14,13 @@ function App() {
       <Routes>
         <Route path="/" element={ <MainPage/> } />
         <Route path="." element={ <MainPage/> } />
+        <Route path="/Frontend-Mentor" element={ <MainPage/> } />
         <Route path="/product-preview-card-component" element={ <ProductReviewPage/> } />
         <Route path="/qr-code-component" element={ <QrCodeComponent/> } />
         <Route path="/nft-preview-card-component" element={ <NFTPreviewCardComponent/> } />
         <Route path="/order-summary-component" element={ <OrderSummaryComponent/>}/>
         <Route path="/results-summary-component" element={ <ResultsSummaryComponent/> } />
+        <Route path="/stats-preview-card-component" element={ <StatsPreviewCardComponent/> } />
       </Routes>
   </Router>
   );
