@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/Frontend-Mentor/static/css/main.33faed56.css",
-    "main.js": "/Frontend-Mentor/static/js/main.69970f06.js",
+    "main.css": "/Frontend-Mentor/static/css/main.8a0dc178.css",
+    "main.js": "/Frontend-Mentor/static/js/main.b28eeef6.js",
     "static/js/787.cec200c7.chunk.js": "/Frontend-Mentor/static/js/787.cec200c7.chunk.js",
     "static/media/image-product-desktop.jpg": "/Frontend-Mentor/static/media/image-product-desktop.c96d43af17111fe78e96.jpg",
     "static/media/image-header-desktop.jpg": "/Frontend-Mentor/static/media/image-header-desktop.72d6e2a00c9131c7b6a6.jpg",
     "static/media/illustration-hero.svg": "/Frontend-Mentor/static/media/illustration-hero.7303258392501e7adc159201ab028e44.svg",
     "static/media/image-equilibrium.jpg": "/Frontend-Mentor/static/media/image-equilibrium.88bdbc91a544a2a4d04a.jpg",
+    "static/media/icon-luxury.svg": "/Frontend-Mentor/static/media/icon-luxury.7d6e1aefdc39c4742fbb039e7f97a503.svg",
+    "static/media/icon-suvs.svg": "/Frontend-Mentor/static/media/icon-suvs.058b664c311101933ebda84111ddd9b6.svg",
+    "static/media/icon-sedans.svg": "/Frontend-Mentor/static/media/icon-sedans.e794502801c486bcffc3513f6f03141e.svg",
     "static/media/icon-memory.svg": "/Frontend-Mentor/static/media/icon-memory.22a9e0501e58960f3c349cd96fcf108f.svg",
     "index.html": "/Frontend-Mentor/index.html",
     "static/media/icon-cart.svg": "/Frontend-Mentor/static/media/icon-cart.9606ad84b7565a3f523f9429396f8066.svg",
@@ -16,12 +19,12 @@
     "static/media/icon-clock.svg": "/Frontend-Mentor/static/media/icon-clock.991a65225dab4fadc84345ecb35faa1b.svg",
     "static/media/icon-reaction.svg": "/Frontend-Mentor/static/media/icon-reaction.0c1d6b98b4559ba72276d9ceda14692d.svg",
     "static/media/icon-ethereum.svg": "/Frontend-Mentor/static/media/icon-ethereum.5221f33297e5dc863451e2da9a758c12.svg",
-    "main.33faed56.css.map": "/Frontend-Mentor/static/css/main.33faed56.css.map",
-    "main.69970f06.js.map": "/Frontend-Mentor/static/js/main.69970f06.js.map",
+    "main.8a0dc178.css.map": "/Frontend-Mentor/static/css/main.8a0dc178.css.map",
+    "main.b28eeef6.js.map": "/Frontend-Mentor/static/js/main.b28eeef6.js.map",
     "787.cec200c7.chunk.js.map": "/Frontend-Mentor/static/js/787.cec200c7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33faed56.css",
-    "static/js/main.69970f06.js"
+    "static/css/main.8a0dc178.css",
+    "static/js/main.b28eeef6.js"
   ]
 }
