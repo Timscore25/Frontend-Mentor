@@ -13,10 +13,10 @@
 
 ## Project List
 
-- [NFT-preview-card-component](https://github.com/timscore25/frontend-mentor/nft-preview-card-component)
-- [Order-summary-component](https://github.com/tiscore25/frontend-mentor/order-summary-component)
 - [Product-preview-card-component](https://github.com/timscore25/frontend-mentor/product-preview-card-component)
 - [Qr-code-component](https://github.com/timscore25/frontend-mentor/qr-code-component)
+- [NFT-preview-card-component](https://github.com/timscore25/frontend-mentor/nft-preview-card-component)
+- [Order-summary-component](https://github.com/tiscore25/frontend-mentor/order-summary-component)
 - [Results-summary-component](https://github.com/timscore25/frontend-mentor/results-summary-component)
 - [Stats-preview-card-component](https://github.com/timscore25/frontend-mentor/stats-preview-card-component)
 - [3-column preview card component](https://github.com/timscore25/frontend-mentor/3column-preview-card-component)
