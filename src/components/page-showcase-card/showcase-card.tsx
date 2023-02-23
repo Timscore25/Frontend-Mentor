@@ -11,6 +11,7 @@ function CardsComponent () {
     const [goToOrderSummaryComponent, setGoToOrderSummaryComponent] = React.useState(false);
     const [goToResultsSummaryComponent, setGoToResultsSummaryComponent] = React.useState(false);
     const [goToStatsPreviewCardComponent, setGoToStatsPreviewCardComponent] = React.useState(false);
+    const [goTo3columnPreviewCardComponent, setGoTo3columnPreviewCardComponent] = React.useState(false);
 
     if (goToProductPreviewCardComponent) {
     return <Navigate to="/product-preview-card-component" />;
@@ -34,6 +35,10 @@ function CardsComponent () {
 
     if (goToStatsPreviewCardComponent) {
     return <Navigate to="/stats-preview-card-component" />;
+    }
+
+    if (goTo3columnPreviewCardComponent) {
+    return <Navigate to="/3column-preview-card-component" />;
     }
 
     return (
@@ -140,6 +145,24 @@ function CardsComponent () {
                             setGoToStatsPreviewCardComponent(true);
                             }}
                             >Stats preview card component</a>
+                        </div>
+                        <div className={CARD.languages}>
+                            <p className={CARD.html}>HTML</p>
+                            <p className={CARD.css}>CSS</p>
+                        </div>
+                    </div>
+                    <p className={CARD.date}>2/22/2023 - same day</p>
+                </div>
+                <div className={CARD.mainPageContentContainerCard}>
+                    <img src="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/juir90bwmmvlo86g9paz.jpg" alt="" />
+                    <div className={CARD.textContainer}>
+                        <div className={CARD.Headline}>
+                            <a 
+                            onClick={() => {
+                            /* set 'goToProductPreviewCardComponent' to true */
+                            setGoTo3columnPreviewCardComponent(true);
+                            }}
+                            >3-column preview card component</a>
                         </div>
                         <div className={CARD.languages}>
                             <p className={CARD.html}>HTML</p>
