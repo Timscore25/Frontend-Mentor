@@ -12,6 +12,7 @@ function CardsComponent () {
     const [goToResultsSummaryComponent, setGoToResultsSummaryComponent] = React.useState(false);
     const [goToStatsPreviewCardComponent, setGoToStatsPreviewCardComponent] = React.useState(false);
     const [goTo3columnPreviewCardComponent, setGoTo3columnPreviewCardComponent] = React.useState(false);
+    const [goToProfileCardComponent, setGoToProfileCardComponent] = React.useState(false);
 
     if (goToProductPreviewCardComponent) {
     return <Navigate to="/product-preview-card-component" />;
@@ -39,6 +40,10 @@ function CardsComponent () {
 
     if (goTo3columnPreviewCardComponent) {
     return <Navigate to="/3column-preview-card-component" />;
+    }
+
+    if (goToProfileCardComponent) {
+    return <Navigate to="/profile-card-component" />;
     }
 
     return (
@@ -169,7 +174,25 @@ function CardsComponent () {
                             <p className={CARD.css}>CSS</p>
                         </div>
                     </div>
-                    <p className={CARD.date}>2/22/2023 - same day</p>
+                    <p className={CARD.date}>2/23/2023 - same day</p>
+                </div>
+                <div className={CARD.mainPageContentContainerCard}>
+                    <img src="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/dia0o9uigiiz4gebiqps.jpg" alt="" />
+                    <div className={CARD.textContainer}>
+                        <div className={CARD.Headline}>
+                            <a 
+                            onClick={() => {
+                            /* set 'goToProductPreviewCardComponent' to true */
+                            setGoToProfileCardComponent(true);
+                            }}
+                            >Profile card component</a>
+                        </div>
+                        <div className={CARD.languages}>
+                            <p className={CARD.html}>HTML</p>
+                            <p className={CARD.css}>CSS</p>
+                        </div>
+                    </div>
+                    <p className={CARD.date}>2/24/2023 - same day</p>
                 </div>
             </div>
         </div>

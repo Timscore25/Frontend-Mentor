@@ -8,6 +8,7 @@ import OrderSummaryComponent from './pages/Order-summary-component/Order-summary
 import ResultsSummaryComponent from './pages/Results-summary-component/Results-summary-component';
 import StatsPreviewCardComponent from './pages/template-page copy/Stats-preview-card-component';
 import ColumnPreviewCardComponent from './pages/template-page copy 2/3column-preview-card-component';
+import ProfileCardComponent from './pages/template-page copy 3/Profile-card-component';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/results-summary-component" element={ <ResultsSummaryComponent/> } />
         <Route path="/stats-preview-card-component" element={ <StatsPreviewCardComponent/> } />
         <Route path="/3column-preview-card-component" element={ <ColumnPreviewCardComponent/> } />
+        <Route path="/profile-card-component" element={ <ProfileCardComponent/> } />
       </Routes>
   </Router>
   );
