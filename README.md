@@ -20,6 +20,7 @@
 - [Results-summary-component](https://github.com/timscore25/frontend-mentor/results-summary-component)
 - [Stats-preview-card-component](https://github.com/timscore25/frontend-mentor/stats-preview-card-component)
 - [3-column preview card component](https://github.com/timscore25/frontend-mentor/3column-preview-card-component)
+- [Profile card component](https://github.com/timscore25/frontend-mentor/profile-card-component)
 
 
 ## Contributing
