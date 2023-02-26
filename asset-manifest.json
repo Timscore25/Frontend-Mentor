@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Frontend-Mentor/static/css/main.5bad6d46.css",
+    "main.css": "/Frontend-Mentor/static/css/main.ce2e98b1.css",
     "main.js": "/Frontend-Mentor/static/js/main.e4741919.js",
     "static/js/787.cec200c7.chunk.js": "/Frontend-Mentor/static/js/787.cec200c7.chunk.js",
     "static/media/image-product-desktop.jpg": "/Frontend-Mentor/static/media/image-product-desktop.c96d43af17111fe78e96.jpg",
@@ -25,12 +25,12 @@
     "static/media/icon-clock.svg": "/Frontend-Mentor/static/media/icon-clock.991a65225dab4fadc84345ecb35faa1b.svg",
     "static/media/icon-reaction.svg": "/Frontend-Mentor/static/media/icon-reaction.0c1d6b98b4559ba72276d9ceda14692d.svg",
     "static/media/icon-ethereum.svg": "/Frontend-Mentor/static/media/icon-ethereum.5221f33297e5dc863451e2da9a758c12.svg",
-    "main.5bad6d46.css.map": "/Frontend-Mentor/static/css/main.5bad6d46.css.map",
+    "main.ce2e98b1.css.map": "/Frontend-Mentor/static/css/main.ce2e98b1.css.map",
     "main.e4741919.js.map": "/Frontend-Mentor/static/js/main.e4741919.js.map",
     "787.cec200c7.chunk.js.map": "/Frontend-Mentor/static/js/787.cec200c7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bad6d46.css",
+    "static/css/main.ce2e98b1.css",
     "static/js/main.e4741919.js"
   ]
 }
