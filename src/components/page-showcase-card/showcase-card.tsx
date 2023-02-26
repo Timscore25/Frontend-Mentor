@@ -5,45 +5,26 @@ import SearchBar from '../search-bar/searchBar';
 
 function CardsComponent () {
 
-    const [goToProductPreviewCardComponent, setGoToProductPreviewCardComponent] = React.useState(false);
-    const [goToQrCodeComponent, setGoToQrCodeComponent] = React.useState(false);
-    const [goToNftPreviewCardComponent, setGoToNftPreviewCardComponent] = React.useState(false);
-    const [goToOrderSummaryComponent, setGoToOrderSummaryComponent] = React.useState(false);
-    const [goToResultsSummaryComponent, setGoToResultsSummaryComponent] = React.useState(false);
-    const [goToStatsPreviewCardComponent, setGoToStatsPreviewCardComponent] = React.useState(false);
-    const [goTo3columnPreviewCardComponent, setGoTo3columnPreviewCardComponent] = React.useState(false);
-    const [goToProfileCardComponent, setGoToProfileCardComponent] = React.useState(false);
+    const [goToComponent, setGoToComponent] = React.useState('');
 
-    if (goToProductPreviewCardComponent) {
+    if (goToComponent === 'product-preview-card-component') {
     return <Navigate to="/product-preview-card-component" />;
-    }
-
-    if (goToQrCodeComponent) {
+    } else if (goToComponent === 'qr-code-component') {
     return <Navigate to="/qr-code-component" />;
-    }
-
-    if (goToNftPreviewCardComponent) {
+    } else if (goToComponent === 'nft-preview-card-component') {
     return <Navigate to="/nft-preview-card-component" />;
-    }
-
-    if (goToOrderSummaryComponent) {
+    } else if (goToComponent === 'order-summary-component') {
     return <Navigate to="/order-summary-component" />;
-    }
-
-    if (goToResultsSummaryComponent) {
+    } else if (goToComponent === 'results-summary-component') {
     return <Navigate to="/results-summary-component" />;
-    }
-
-    if (goToStatsPreviewCardComponent) {
+    } else if (goToComponent === 'stats-preview-card-component') {
     return <Navigate to="/stats-preview-card-component" />;
-    }
-
-    if (goTo3columnPreviewCardComponent) {
+    } else if (goToComponent === '3column-preview-card-component') {
     return <Navigate to="/3column-preview-card-component" />;
-    }
-
-    if (goToProfileCardComponent) {
+    } else if (goToComponent === 'profile-card-component') {
     return <Navigate to="/profile-card-component" />;
+    } else if (goToComponent === 'social-proof-section') {
+    return <Navigate to="/social-proof-section" />;
     }
 
     return (
@@ -57,7 +38,7 @@ function CardsComponent () {
                             <a 
                             onClick={() => {
                             /* set 'goToProductPreviewCardComponent' to true */
-                            setGoToProductPreviewCardComponent(true);
+                            setGoToComponent('product-preview-card-component');
                             }}
                             >Product preview card component</a>
                         </div>
@@ -75,7 +56,7 @@ function CardsComponent () {
                             <a 
                             onClick={() => {
                             /* set 'goToProductPreviewCardComponent' to true */
-                            setGoToQrCodeComponent(true);
+                            setGoToComponent('qr-code-component');
                             }}
                             >QR code component</a>
                         </div>
@@ -93,7 +74,7 @@ function CardsComponent () {
                             <a 
                             onClick={() => {
                             /* set 'goToProductPreviewCardComponent' to true */
-                            setGoToNftPreviewCardComponent(true);
+                            setGoToComponent('nft-preview-card-component');
                             }}
                             >NFT preview card component</a>
                         </div>
@@ -111,7 +92,7 @@ function CardsComponent () {
                             <a 
                             onClick={() => {
                             /* set 'goToProductPreviewCardComponent' to true */
-                            setGoToOrderSummaryComponent(true);
+                            setGoToComponent('order-summary-component');
                             }}
                             >Order summary component</a>
                         </div>
@@ -129,7 +110,7 @@ function CardsComponent () {
                             <a 
                             onClick={() => {
                             /* set 'goToProductPreviewCardComponent' to true */
-                            setGoToResultsSummaryComponent(true);
+                            setGoToComponent('results-summary-component');
                             }}
                             >Results summary component</a>
                         </div>
@@ -147,7 +128,7 @@ function CardsComponent () {
                             <a 
                             onClick={() => {
                             /* set 'goToProductPreviewCardComponent' to true */
-                            setGoToStatsPreviewCardComponent(true);
+                            setGoToComponent('stats-preview-card-component');
                             }}
                             >Stats preview card component</a>
                         </div>
@@ -165,7 +146,7 @@ function CardsComponent () {
                             <a 
                             onClick={() => {
                             /* set 'goToProductPreviewCardComponent' to true */
-                            setGoTo3columnPreviewCardComponent(true);
+                            setGoToComponent('3-column-preview-card-component');
                             }}
                             >3-column preview card component</a>
                         </div>
@@ -183,7 +164,7 @@ function CardsComponent () {
                             <a 
                             onClick={() => {
                             /* set 'goToProductPreviewCardComponent' to true */
-                            setGoToProfileCardComponent(true);
+                            setGoToComponent('profile-card-component');
                             }}
                             >Profile card component</a>
                         </div>
@@ -193,6 +174,24 @@ function CardsComponent () {
                         </div>
                     </div>
                     <p className={CARD.date}>2/24/2023 - same day</p>
+                </div>
+                <div className={CARD.mainPageContentContainerCard}>
+                    <img src="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/bnjpxmx9fudsmerfj6eo.jpg" alt="" />
+                    <div className={CARD.textContainer}>
+                        <div className={CARD.Headline}>
+                            <a 
+                            onClick={() => {
+                            /* set 'goToProductPreviewCardComponent' to true */
+                            setGoToComponent('social-proof-section');
+                        }}
+                            >Social proof section</a>
+                        </div>
+                        <div className={CARD.languages}>
+                            <p className={CARD.html}>HTML</p>
+                            <p className={CARD.css}>CSS</p>
+                        </div>
+                    </div>
+                    <p className={CARD.date}>2/26/2023 - same day</p>
                 </div>
             </div>
         </div>

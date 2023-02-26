@@ -9,6 +9,7 @@ import ResultsSummaryComponent from './pages/Results-summary-component/Results-s
 import StatsPreviewCardComponent from './pages/template-page copy/Stats-preview-card-component';
 import ColumnPreviewCardComponent from './pages/template-page copy 2/3column-preview-card-component';
 import ProfileCardComponent from './pages/template-page copy 3/Profile-card-component';
+import SocialProofSection from './pages/template-page copy 4/social-proof-section';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/stats-preview-card-component" element={ <StatsPreviewCardComponent/> } />
         <Route path="/3column-preview-card-component" element={ <ColumnPreviewCardComponent/> } />
         <Route path="/profile-card-component" element={ <ProfileCardComponent/> } />
+        <Route path="/social-proof-section" element={ <SocialProofSection/> } />
       </Routes>
   </Router>
   );
