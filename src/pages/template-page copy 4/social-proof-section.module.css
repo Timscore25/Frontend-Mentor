@@ -162,3 +162,67 @@
 .reviewsText p{
     letter-spacing: 0.6px;
 }
+
+@media screen and (min-width: 1440px) {
+    .bgTop {
+        width: 1000px;
+    }
+    .bgBottom {
+        height: 1000px;
+    }
+
+    .contentContainer {
+        padding: 15rem 20rem;
+        padding-bottom: 0;
+    }
+
+    .textSection {
+        max-width: 700px;
+    }
+
+    .textSection h1 {
+        font-size: 5rem;
+    }
+
+    .textSection h2 {
+        font-size: 1.7rem;
+    }
+
+    .socialProofCard {
+        padding: 1.5rem 2rem;
+    }
+
+    .stars {
+        scale: 1.2;
+        margin-left: 1rem;
+        margin-right: 5rem;
+    }
+
+    .stars img {
+        margin-right: 5px;
+    }
+
+    .socialProofCardText h1 {
+        font-size: 1.5rem;
+    }
+
+    .reviewsCard {
+        width: 400px;
+        height: 250px;
+        margin-right: 3rem;
+    }
+
+    .reviewsCard h3 {
+        font-size: 1.2rem;
+    }
+
+    .reviewsCard h4 {
+        font-size: 1.2rem;
+    }
+
+    .reviewsCard p {
+        font-size: 1.4rem;
+        letter-spacing: 0.4px;
+        line-height: 30px;
+    }
+  }
