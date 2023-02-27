@@ -6,10 +6,11 @@ import QrCodeComponent from './pages/Qr-code-component/Qr-code-component';
 import NFTPreviewCardComponent from './pages/NFT-preview-card-component/NFT-preview-card-component';
 import OrderSummaryComponent from './pages/Order-summary-component/Order-summary-component';
 import ResultsSummaryComponent from './pages/Results-summary-component/Results-summary-component';
-import StatsPreviewCardComponent from './pages/template-page copy/Stats-preview-card-component';
-import ColumnPreviewCardComponent from './pages/template-page copy 2/3column-preview-card-component';
-import ProfileCardComponent from './pages/template-page copy 3/Profile-card-component';
-import SocialProofSection from './pages/template-page copy 4/social-proof-section';
+import StatsPreviewCardComponent from './pages/Stats-preview-card-component/Stats-preview-card-component';
+import ColumnPreviewCardComponent from './pages/3column-preview-card-component/3column-preview-card-component';
+import ProfileCardComponent from './pages/Profile-card-component/Profile-card-component';
+import SocialProofSection from './pages/Social-proof-section/social-proof-section';
+import FourCardFeatureSection from './pages/Four-card-feature-section/Four-card-feature-section';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/3column-preview-card-component" element={ <ColumnPreviewCardComponent/> } />
         <Route path="/profile-card-component" element={ <ProfileCardComponent/> } />
         <Route path="/social-proof-section" element={ <SocialProofSection/> } />
+        <Route path="/four-card-feature-section" element={ <FourCardFeatureSection/> } />
       </Routes>
   </Router>
   );

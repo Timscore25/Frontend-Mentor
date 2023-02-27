@@ -25,6 +25,8 @@ function CardsComponent () {
     return <Navigate to="/profile-card-component" />;
     } else if (goToComponent === 'social-proof-section') {
     return <Navigate to="/social-proof-section" />;
+    } else if (goToComponent === 'four-card-feature-section') {
+    return <Navigate to="/four-card-feature-section" />;
     }
 
     return (
@@ -192,6 +194,24 @@ function CardsComponent () {
                         </div>
                     </div>
                     <p className={CARD.date}>2/26/2023 - same day</p>
+                </div>
+                <div className={CARD.mainPageContentContainerCard}>
+                    <img src="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/a3b5gbgtfbtiqrdawpwp.jpg" alt="" />
+                    <div className={CARD.textContainer}>
+                        <div className={CARD.Headline}>
+                            <a 
+                            onClick={() => {
+                            /* set 'goToProductPreviewCardComponent' to true */
+                            setGoToComponent('four-card-feature-section');
+                        }}
+                            >Four card feature section</a>
+                        </div>
+                        <div className={CARD.languages}>
+                            <p className={CARD.html}>HTML</p>
+                            <p className={CARD.css}>CSS</p>
+                        </div>
+                    </div>
+                    <p className={CARD.date}>2/27/2023 - 6:45PM</p>
                 </div>
             </div>
         </div>
