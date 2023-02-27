@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/Frontend-Mentor/static/css/main.ce2e98b1.css",
-    "main.js": "/Frontend-Mentor/static/js/main.e4741919.js",
+    "main.css": "/Frontend-Mentor/static/css/main.3de36ab9.css",
+    "main.js": "/Frontend-Mentor/static/js/main.34d0b766.js",
     "static/js/787.cec200c7.chunk.js": "/Frontend-Mentor/static/js/787.cec200c7.chunk.js",
     "static/media/image-product-desktop.jpg": "/Frontend-Mentor/static/media/image-product-desktop.c96d43af17111fe78e96.jpg",
     "static/media/image-header-desktop.jpg": "/Frontend-Mentor/static/media/image-header-desktop.72d6e2a00c9131c7b6a6.jpg",
     "static/media/illustration-hero.svg": "/Frontend-Mentor/static/media/illustration-hero.7303258392501e7adc159201ab028e44.svg",
     "static/media/image-equilibrium.jpg": "/Frontend-Mentor/static/media/image-equilibrium.88bdbc91a544a2a4d04a.jpg",
     "static/media/bg-pattern-card.svg": "/Frontend-Mentor/static/media/bg-pattern-card.b61daebd3cb4b885d10fd683755d49bb.svg",
+    "static/media/icon-karma.svg": "/Frontend-Mentor/static/media/icon-karma.24e0debeb1e51eaa14e295270e33df54.svg",
+    "static/media/icon-supervisor.svg": "/Frontend-Mentor/static/media/icon-supervisor.2dd10a2df2ddca34f77ca6a2065c6be2.svg",
     "static/media/icon-luxury.svg": "/Frontend-Mentor/static/media/icon-luxury.7d6e1aefdc39c4742fbb039e7f97a503.svg",
     "static/media/icon-suvs.svg": "/Frontend-Mentor/static/media/icon-suvs.058b664c311101933ebda84111ddd9b6.svg",
     "static/media/icon-sedans.svg": "/Frontend-Mentor/static/media/icon-sedans.e794502801c486bcffc3513f6f03141e.svg",
+    "static/media/icon-team-builder.svg": "/Frontend-Mentor/static/media/icon-team-builder.b885fb580a3cb78c9ad249750dd65a01.svg",
+    "static/media/icon-calculator.svg": "/Frontend-Mentor/static/media/icon-calculator.21bc9adc97d084a64aedb386f1e35c0d.svg",
     "static/media/icon-memory.svg": "/Frontend-Mentor/static/media/icon-memory.22a9e0501e58960f3c349cd96fcf108f.svg",
     "index.html": "/Frontend-Mentor/index.html",
     "static/media/bg-pattern-bottom-desktop.svg": "/Frontend-Mentor/static/media/bg-pattern-bottom-desktop.32aa6571dc718836bdfc0e9aeccb9433.svg",
@@ -25,12 +29,12 @@
     "static/media/icon-clock.svg": "/Frontend-Mentor/static/media/icon-clock.991a65225dab4fadc84345ecb35faa1b.svg",
     "static/media/icon-reaction.svg": "/Frontend-Mentor/static/media/icon-reaction.0c1d6b98b4559ba72276d9ceda14692d.svg",
     "static/media/icon-ethereum.svg": "/Frontend-Mentor/static/media/icon-ethereum.5221f33297e5dc863451e2da9a758c12.svg",
-    "main.ce2e98b1.css.map": "/Frontend-Mentor/static/css/main.ce2e98b1.css.map",
-    "main.e4741919.js.map": "/Frontend-Mentor/static/js/main.e4741919.js.map",
+    "main.3de36ab9.css.map": "/Frontend-Mentor/static/css/main.3de36ab9.css.map",
+    "main.34d0b766.js.map": "/Frontend-Mentor/static/js/main.34d0b766.js.map",
     "787.cec200c7.chunk.js.map": "/Frontend-Mentor/static/js/787.cec200c7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce2e98b1.css",
-    "static/js/main.e4741919.js"
+    "static/css/main.3de36ab9.css",
+    "static/js/main.34d0b766.js"
   ]
 }
