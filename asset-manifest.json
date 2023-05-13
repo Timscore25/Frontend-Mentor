@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Frontend-Mentor/static/css/main.3de36ab9.css",
-    "main.js": "/Frontend-Mentor/static/js/main.34d0b766.js",
+    "main.css": "/Frontend-Mentor/static/css/main.90889f47.css",
+    "main.js": "/Frontend-Mentor/static/js/main.592a945f.js",
     "static/js/787.cec200c7.chunk.js": "/Frontend-Mentor/static/js/787.cec200c7.chunk.js",
     "static/media/image-product-desktop.jpg": "/Frontend-Mentor/static/media/image-product-desktop.c96d43af17111fe78e96.jpg",
     "static/media/image-header-desktop.jpg": "/Frontend-Mentor/static/media/image-header-desktop.72d6e2a00c9131c7b6a6.jpg",
@@ -29,12 +29,12 @@
     "static/media/icon-clock.svg": "/Frontend-Mentor/static/media/icon-clock.991a65225dab4fadc84345ecb35faa1b.svg",
     "static/media/icon-reaction.svg": "/Frontend-Mentor/static/media/icon-reaction.0c1d6b98b4559ba72276d9ceda14692d.svg",
     "static/media/icon-ethereum.svg": "/Frontend-Mentor/static/media/icon-ethereum.5221f33297e5dc863451e2da9a758c12.svg",
-    "main.3de36ab9.css.map": "/Frontend-Mentor/static/css/main.3de36ab9.css.map",
-    "main.34d0b766.js.map": "/Frontend-Mentor/static/js/main.34d0b766.js.map",
+    "main.90889f47.css.map": "/Frontend-Mentor/static/css/main.90889f47.css.map",
+    "main.592a945f.js.map": "/Frontend-Mentor/static/js/main.592a945f.js.map",
     "787.cec200c7.chunk.js.map": "/Frontend-Mentor/static/js/787.cec200c7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3de36ab9.css",
-    "static/js/main.34d0b766.js"
+    "static/css/main.90889f47.css",
+    "static/js/main.592a945f.js"
   ]
 }
