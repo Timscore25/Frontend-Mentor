@@ -11,6 +11,7 @@ import ColumnPreviewCardComponent from './pages/3column-preview-card-component/3
 import ProfileCardComponent from './pages/Profile-card-component/Profile-card-component';
 import SocialProofSection from './pages/Social-proof-section/social-proof-section';
 import FourCardFeatureSection from './pages/Four-card-feature-section/Four-card-feature-section';
+import SinglePriceGridComponent from './pages/Single-price-grid-component/Single-price-grid-component';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/profile-card-component" element={ <ProfileCardComponent/> } />
         <Route path="/social-proof-section" element={ <SocialProofSection/> } />
         <Route path="/four-card-feature-section" element={ <FourCardFeatureSection/> } />
+        <Route path="/Single-price-grid-component" element={ <SinglePriceGridComponent/> } />
       </Routes>
   </Router>
   );

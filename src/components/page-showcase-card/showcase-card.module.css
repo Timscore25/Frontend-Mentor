@@ -5,15 +5,15 @@
 }
 
 .mainpageCenter {
-    width: 1000px;
+    width: 1200px;
+    max-width: 120rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .mainPageContentContainerCard {
-    width: 300px;
-    height: 400px;
+    height: auto;
     /* width: 380px;
     height: 530px; */
     background-color: #F0F0F0;
@@ -73,4 +73,22 @@
     font-size: 14px;
     color: hsl(228, 12%, 48%);
     padding-left: 30px;
+}
+
+@media (min-width: 1024px) {
+    .mainPageContentContainerCard {
+        width: calc((33.3333% - 2.5rem) - 0.001rem);
+    }
+}
+
+@media (max-width: 768px) {
+    .mainPageContentContainerCard {
+        width: calc((50% - 1.075rem) - 0.001rem);
+    }
+}
+
+@media (max-width: 500px) {
+    .mainPageContentContainerCard {
+        width: calc((50% - 1.25rem) - 0.001rem);
+    }
 }

@@ -27,6 +27,8 @@ function CardsComponent () {
     return <Navigate to="/social-proof-section" />;
     } else if (goToComponent === 'four-card-feature-section') {
     return <Navigate to="/four-card-feature-section" />;
+    } else if (goToComponent === 'Single-price-grid-component') {
+    return <Navigate to="/Single-price-grid-component" />;
     }
 
     return (
@@ -212,6 +214,24 @@ function CardsComponent () {
                         </div>
                     </div>
                     <p className={CARD.date}>2/27/2023 - 6:45PM</p>
+                </div>
+                <div className={CARD.mainPageContentContainerCard}>
+                    <img src="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/i6wu7n5sthrxgfpfibvx.jpg" alt="" />
+                    <div className={CARD.textContainer}>
+                        <div className={CARD.Headline}>
+                            <a 
+                            onClick={() => {
+                            /* set 'goToProductPreviewCardComponent' to true */
+                            setGoToComponent('Single-price-grid-component');
+                        }}
+                            >Single price grid component</a>
+                        </div>
+                        <div className={CARD.languages}>
+                            <p className={CARD.html}>HTML</p>
+                            <p className={CARD.css}>CSS</p>
+                        </div>
+                    </div>
+                    <p className={CARD.date}>3/11/2023 - 12:09PM</p>
                 </div>
             </div>
         </div>

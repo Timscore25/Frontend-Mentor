@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+.mainPage {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(204, 43%, 93%);
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.mainPage h1, h2, h3, p, ul {
+    margin: 0;
+}
+
+.gridComponent {
+    background-color: #ffffff;
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 14px 1px #00000024;
+    overflow: hidden;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "topComponent topComponent"
+    "leftComponent rightComponent";
+}
+
+.leftComponent { grid-area: leftComponent; }
+.rightComponent { grid-area: rightComponent; }
+.topComponent { grid-area: topComponent; }
+
+.item {
+    padding: 2rem;
+}
+
+.topComponent {
+    font-size: 16px;
+    width: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+}
+
+.topComponent h1 {
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 2rem;
+}
+
+.topComponent h2 {
+    color: hsl(71, 73%, 54%);
+    padding-bottom: 0.5rem;
+}
+
+.topComponent p {
+    color: hsl(218, 22%, 67%);
+    max-width: 90%;
+    line-height: 25px;
+}
+
+.leftComponent {
+    background-color: hsl(179, 62%, 43%);
+    display: flex;
+    flex-direction: column;
+}
+
+.leftComponent h1,h2,h3, p {
+    color: white;
+}
+
+.leftComponent h2 {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+.leftComponent h1 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+.leftComponent p {
+    margin-top: 10px;
+    opacity: 0.6;
+    font-size: 16px;
+    margin-left: 10px;
+    width: 100%;
+}
+.leftComponent h3 {
+    margin-top: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.leftComponent button {
+    font-weight: 900;
+    font-size: 1rem;
+    margin-top: 1rem;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.priceInfo {
+    display: flex;
+}
+
+.rightComponent {
+    background-color: hsl(179, 62%, 43%, 0.8);
+}
+
+.rightComponent h2 {
+    color: #ffffff;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.rightComponent li {
+    color: white;
+    list-style: none;
+}
+
+.rightComponent ul {
+    font-weight: 400;
+    padding: 0;
+    opacity: 0.6;
+    line-height: 20px;
+}
